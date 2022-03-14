@@ -4,10 +4,11 @@
 
 replicaCount: 1
 
-images:
+image:
+  repository: registry.gitlab.com/tamasturcsanyi/articonf-vg-api
   pullPolicy: Always
   registry: registry.gitlab.com
-  repository: registry.gitlab.com/tamasturcsanyi/articonf-vg-api
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""

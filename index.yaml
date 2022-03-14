@@ -3,12 +3,12 @@ entries:
   vialog-helm-dataservice:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-03-14T11:16:37.238393074+01:00"
+    created: "2022-03-14T11:46:11.196289893+01:00"
     description: A Helm chart for Kubernetes
-    digest: d488b1a57cd2d4cc94aa29035c75e40ee8071170292c1482ee4e3f5316987968
+    digest: 13c1a9a2c0e709364e21829327f4edf20d1a49caf082eb0b4c633ecdbe24f3ca
     name: vialog-helm-dataservice
     type: application
     urls:
     - https://qcdis.github.io/vialog-helm-dataservice/vialog-helm-dataservice-0.1.0.tgz
     version: 0.1.0
-generated: "2022-03-14T11:16:37.237313296+01:00"
+generated: "2022-03-14T11:46:11.195175134+01:00"
