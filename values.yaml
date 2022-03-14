@@ -4,11 +4,10 @@
 
 replicaCount: 1
 
-image:
-  repository: tamasvialog/vialogdataserviceworkersrefiner
-  pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+images:
+  pullPolicy: Always
+  registry: registry.gitlab.com
+  repository: registry.gitlab.com/tamasturcsanyi/articonf-vg-api
 
 imagePullSecrets: []
 nameOverride: ""
@@ -37,9 +36,9 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: ClusterIP
+  type: NodePort
   port: 80
-  test_path: "/weatherforecast"
+  test_path: "/"
 
 ingress:
   enabled: false
