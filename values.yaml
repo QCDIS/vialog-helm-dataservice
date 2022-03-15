@@ -9,6 +9,8 @@ image:
   pullPolicy: Always
   registry: registry.gitlab.com
   tag: "latest"
+  token: ""
+
 
 imagePullSecrets: []
 nameOverride: ""
